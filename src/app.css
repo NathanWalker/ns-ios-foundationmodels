@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+TextField,
+TextView {
+  @apply text-lg text-black bg-gray-100 p-4 border border-gray-300 rounded-2xl;
+}
+
+.h-left {
+    /* NativeScript specific */
+    horizontal-align: left;
+}

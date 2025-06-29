@@ -1,0 +1,25 @@
+<ActionBar title="NativeScript with iOS 26 FoundationModels"> </ActionBar>
+
+<GridLayout rows="auto,auto,*" class="p-4">
+  <TextView
+    [(ngModel)]="userInput"
+    hint="Ask AI something..."
+    [userInteractionEnabled]="!processing()"
+    [opacity]="processing() ? 0.5 : 1"
+  ></TextView>
+  <GridLayout row="1" class="my-4">
+    <button
+      [text]="processing() ? 'Processing...' : 'Ask AI'"
+      (tap)="fetchAIResponse()"
+      class="rounded-full text-white text-lg p-4"
+      [ngClass]="{
+        'bg-blue-500': !processing(),
+        'bg-gray-400': processing()
+      }"
+    ></button>
+    @if (processing()) {
+    <ActivityIndicator busy="true" class="align-middle h-left ml-6 text-white" />
+    }
+  </GridLayout>
+  <TextView row="2" class="leading-[4]" (loaded)="loadedResponseTextView($event)"></TextView>
+</GridLayout>
