@@ -8,6 +8,9 @@ This provides an example NativeScript app which demonstrates how to leverage str
 
 Prerequisites:
 - [NativeScript Environment Setup](https://docs.nativescript.org/environment-setup.html)
+- Xcode 26 with iOS 26: https://developer.apple.com/download
+  - To process AI responses locally, you will also need macOS Tahoe
+  - Be sure to set Xcode 26 as your active Xcode: `xcode-select -switch <path/to/xcode-26>`
 
 ```bash
 ns debug ios
