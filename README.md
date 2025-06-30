@@ -4,7 +4,7 @@
 
 This provides an example NativeScript app which demonstrates how to leverage streamed responses from Apple Intelligence using FoundationModels.
 
-https://www.youtube.com/watch?v=WyxaerWwssQ
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WyxaerWwssQ?si=gqExNi2bDW8yDwM1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### Try it
 
