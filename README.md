@@ -4,6 +4,8 @@
 
 This provides an example NativeScript app which demonstrates how to leverage streamed responses from Apple Intelligence using FoundationModels.
 
+https://www.youtube.com/watch?v=WyxaerWwssQ
+
 ### Try it
 
 Prerequisites:
