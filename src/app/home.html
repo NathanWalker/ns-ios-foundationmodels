@@ -4,8 +4,7 @@
   <TextView
     [(ngModel)]="userInput"
     hint="Ask AI something..."
-    [userInteractionEnabled]="!processing()"
-    [opacity]="processing() ? 0.5 : 1"
+    [isUserInteractionEnabled]="!processing()"
   ></TextView>
   <GridLayout row="1" class="my-4">
     <button
